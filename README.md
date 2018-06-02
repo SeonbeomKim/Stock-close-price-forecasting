@@ -14,8 +14,12 @@
     * output file path : 2.after_add_stock_index  
     
 ## 3.data_preprocess.py
-    * 데이터들을 날짜별로 20-gram으로 묶고 같은 의미를 갖는 column 단위로 데이터 정규화 실시. 
-    * 최종적으로 전처리된 20-gram 데이터를 1row 로 flatten. 
-    * output정보 : 회사, 기준날짜, 전처리된 데이터, 기준close, 3일치의 target close/기준close.
+    * 데이터들을 날짜별로 20-gram으로 묶고 같은 의미를 갖는 column 단위로 데이터 정규화한 후 1row로 flatten.
+    * output정보 : 회사(1), 기준날짜(1), 전처리된 데이터(320=16*20), 기준close(1), 3일치의 target close/기준close/1.3**3(3). == 326 size
+        * (1.3**3) : 주가가 하루에 30%이상 상승/하락 할 수 없는데, 3일 연속의 경우 1.3**3 이상 등락 불가능.
+        * 따라서 1.3**3으로 나눠주면 0~1의 범위를 갖게 된다. => 크로스엔트로피와 시그모이드 사용 가능.
+    * 딥러닝의 입력 : 전처리된 데이터
+    * 딥러닝의 타겟 : 3일치의 target close/기준close
+    * 추론 : 예측된 output * 기준close * 1.3**3 
     * input file path : 2.after_add_stock_index
     * output file path : 3.after_preprocess
