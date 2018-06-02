@@ -7,7 +7,7 @@ from pandas_datareader import data
 import csv
 import os
 
-download_path = "./download_stock_data/"
+download_path = "./1.download_stock_data/"
 kospi200_path = './kospi200/kospi200.csv'
 start = '2010-01-01' #데이터 시작 시점.
 
