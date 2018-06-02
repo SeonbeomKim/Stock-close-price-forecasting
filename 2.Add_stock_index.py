@@ -4,7 +4,7 @@ import os
 import csv
 import pandas as pd
 
-download_path = "./download_stock_data/"
+download_path = "./1.download_stock_data/"
 after_add_stock_index = "./2.after_add_stock_index/"
 
 
