@@ -12,7 +12,6 @@ from sklearn.preprocessing import MinMaxScaler #pip install scikit-learn, scipy
 import warnings
 warnings.filterwarnings("ignore") #MinMaxScaling 할때 워닝 안뜨게함.
 
-
 after_add_stock_index = "./2.after_add_stock_index/"
 after_preprocess = "./3.after_preprocess/"
 
