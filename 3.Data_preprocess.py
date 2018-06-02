@@ -2,8 +2,6 @@
 # 각 column별로 정규화 실시.
 #20일치 정규화된 데이터는 한줄로 펴서 나중에 읽어오기 편하게 함.
 
-#최종 output 모양
-#회사명, 예측기준날짜, high~macd_signal(16개)*20일치, 기준1일뒤 종가/기준날 종가, 2일뒤 종가/기준날 종가, 3일뒤 종가/기준날 종가. 
 import csv
 import os
 import numpy as np
