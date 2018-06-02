@@ -14,7 +14,7 @@ after_add_stock_index = "./2.after_add_stock_index/"
 after_preprocess = "./3.after_preprocess/"
 
 gram = 20
-forecasting_days = 3
+forecasting_days = 3 #예측할 날짜 => 1일뒤, 2일뒤, 3일뒤 예측.
 scaler = MinMaxScaler(feature_range=(0, 1)) #scaler 선언 데이터 분포를 -1~1 범위로 맞추겠다.
 
 #규제때문에 하루만에 30% 이상 오를 수 없음. 3일연속이라면 1.3**3 이상 오를 수 없음.  
