@@ -1,5 +1,9 @@
 # TensorFlow-Stock_price_forecasting
 
+## kospi200.csv
+    * kospi200 종목들의 종목 코드 및 회사명(2018-06-01 기준)
+
+
 ## 1.Download_kospi200_price_csv.py
     * kospi200 종목들의 주가 정보 수집. (2010-01-01 ~ 현재)
     * output file path : download_stock_data
