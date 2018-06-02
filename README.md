@@ -23,3 +23,12 @@
     * 추론 : 예측된 output * 기준close * (1.3**3)
     * input file path : 2.after_add_stock_index
     * output file path : 3.after_preprocess
+    
+## 4.Split_dataset.py    
+    *데이터를 학습, 검증, 테스트로 분할 : 0.7 : 0.15 : 0.15
+    *total : 367739
+        *train_set(70.0) : 257377
+        *vali_set(15.0) : 55097
+        *test_set(15.0) : 55265
+    * input file path : 3.after_preprocess
+    * output file path : 4.split_dataset
