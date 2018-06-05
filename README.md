@@ -30,8 +30,8 @@
     * output file path : 4.split_dataset
 
 ## 5. Deep_learning
-    ### Bi_LSTM_average_encoder_output.py  
-    ![Bi_LSTM_average_encoder_output](./image/BIdirectional_LSTM+Average_Encoder_Output.PNG)
+### Bi_LSTM_average_encoder_output.py  
+![Bi_LSTM_average_encoder_output](./image/BIdirectional_LSTM+Average_Encoder_Output.PNG)
 
 
 
