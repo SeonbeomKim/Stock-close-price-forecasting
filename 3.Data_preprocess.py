@@ -160,7 +160,7 @@ def test_code(): # 한국타이어월드 데이터에서 거래량 0이였던것
 if not os.path.isdir(after_preprocess):
 	os.mkdir(after_preprocess)
 	preprocess(after_add_stock_index)
-	print("가장 큰 target: ",global_max, '회사 : ', global_comp, "날짜 : ", global_date)
+
 
 else:
 	print("이미 폴더가 존재하므로 종료합니다.")
