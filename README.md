@@ -1,9 +1,12 @@
 # TensorFlow-Stock_price_forecasting
 
-## kospi200.csv
+## kospi200
     * kospi200 종목들의 종목 코드 및 회사명(2018-06-01 기준)
 
-
+## image
+    * 3종류의 딥러닝 아키텍처 및 학습 후의 종가 오차 분포 비교 이미지.
+        * 결과적으로 분포가 비슷함.
+        
 ## 1. Download_kospi200_price_csv.py
     * kospi200 종목들의 주가 정보 수집. (2010-01-01 ~ )
     * output file path : 1.download_stock_data
