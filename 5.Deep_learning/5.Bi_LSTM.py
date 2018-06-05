@@ -7,9 +7,9 @@ import os
 tensorboard_path = './tensorboard_Bi_LSTM/'
 saver_path = './saver_Bi_LSTM/'
 
-train_path = "../../4.split_dataset/train_set.csv"
-vali_path = "../../4.split_dataset/vali_set.csv"
-test_path = "../../4.split_dataset/test_set.csv"
+train_path = "../4.split_dataset/train_set.csv"
+vali_path = "../4.split_dataset/vali_set.csv"
+test_path = "../4.split_dataset/test_set.csv"
 
 train_rate = 0.00001
 cell_num = 512
