@@ -30,23 +30,8 @@
     * output file path : 4.split_dataset
 
 ## 5. Deep_learning
-### Bi_LSTM_average_encoder_output.py  
-![Bi_LSTM_average_encoder_output](./image/BIdirectional_LSTM+Average_Encoder_Output.PNG)
-
-
-
-
-### Bi_LSTM_luong_attention.py
-![Bi_LSTM_luong_attention](./image/BIdirectional_LSTM+Luong_Attention.PNG)
-   
-
-
-
-
-
-
-
-
-
-### Bi_LSTM.py
-![Bi_LSTM](./image/BIdirectional_LSTM.PNG)
+    * Bi_LSTM_average_encoder_output.py  
+    * Bi_LSTM_luong_attention.py
+    * Bi_LSTM.py
+        * image 폴더를 보면 위 3가지 모델의 오차( (실제 종가 - 예측 종가 / 실제 종가) * 100 )의 분포는 비슷함.
+        * 즉 아무 모델이나 사용해도 결과는 비슷.
