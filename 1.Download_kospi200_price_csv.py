@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #kospi200 종목들의 주가 데이터 수집 코드.
 
 #pip install pandas-datareader로 설치한 후에 import 에러나, 실행 에러 나는 경우에는
