@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib      -> talib설치 
 import talib
 import os
