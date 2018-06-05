@@ -109,7 +109,7 @@ class model:
 		
 		#calc attention_vector
 		concat = tf.concat([context_vector, de_output], axis=2) # batch, 1, cell_num*2*2
-		concat = tf.squeeze(concat) # batch, cell_num*2*2
+		concat = tf.reshape(concat, (-1, cell_num*4)) # batch, cell_num*2*2
 		
 		W_concat = tf.get_variable('W_c', shape = [cell_num*4, cell_num*2], 
 				initializer=tf.contrib.layers.xavier_initializer())
@@ -381,7 +381,7 @@ run(train_path, vali_path, test_path, stock, restore=-1)
 
 
 #inference. 1~3일 뒤 가격 예측.
-#result = inference(stock, 48, '089590', '제주항공', start='2017-11-28')
+#result = inference(stock, 4, '089590', '제주항공', start='2017-11-28')
 #print(result)
 
 

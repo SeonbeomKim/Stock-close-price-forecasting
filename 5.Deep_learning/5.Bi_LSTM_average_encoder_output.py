@@ -103,7 +103,7 @@ class model:
 		en_output_mean = tf.reduce_mean(en_output, axis=1, keep_dims=True) # batch, 1, cell_num*2
 		
 		concat = tf.concat([en_output_mean, de_output], axis=2) # batch, 1, cell_num*2*2
-		concat = tf.squeeze(concat) # batch, cell_num*2*2
+		concat = tf.reshape(concat, (-1, cell_num*4)) # batch, cell_num*2*2
 		
 		W_concat = tf.get_variable('W_c', shape = [cell_num*4, cell_num*2], 
 				initializer=tf.contrib.layers.xavier_initializer())
