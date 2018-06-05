@@ -54,7 +54,7 @@ def gram_normalization_and_flatten(gram_data, company): #gram 데이터를 컬�
 	target = gram_data[-forecasting_days:, 4].astype(np.float32) #date 이후 3일간의 종가
 	target = target/date_close 
 	
-	preprocessed_data = [company, date] #회사명, 기준 날짜.
+	preprocessed_data = [company, date] #회사명, 기준 날짜 .
 
 	#컬럼별 정규화
 	gram_data = gram_data[:gram] # gram+forecasting_days 중에 gram만 씀. 뒤 forecasting_days는 close만 필요한거니까 안씀.
