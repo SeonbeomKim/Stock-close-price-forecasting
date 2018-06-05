@@ -31,7 +31,7 @@
 
 ## 5. Deep_learning
     a. Bi_LSTM_average_encoder_output.py
-![Bi_LSTM_average_encoder_output](./image/BIdirectional_LSTM+Average_Encoder_Output.PNG width="48")
+![Bi_LSTM_average_encoder_output](./image/BIdirectional_LSTM+Average_Encoder_Output.PNG){: height="36px" width="36px"}.
 
     b. Bi_LSTM_luong_attention.py
 ![Bi_LSTM_luong_attention](./image/BIdirectional_LSTM+Luong_Attention.PNG | width=100)
