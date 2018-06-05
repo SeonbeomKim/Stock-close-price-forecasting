@@ -1,4 +1,4 @@
-#https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib      -> talib설치 
+#https://www.lfd.uci.edu/~gohlke/pythonlibs/#ta-lib      -> talib설치  pip install 파일명
 import talib
 import os
 import csv
