@@ -35,9 +35,17 @@
 
 
 
+
 ### Bi_LSTM_luong_attention.py
 ![Bi_LSTM_luong_attention](./image/BIdirectional_LSTM+Luong_Attention.PNG)
    
+
+
+
+
+
+
+
 
 
 ### Bi_LSTM.py
