@@ -12,7 +12,7 @@ kospi200_path = './kospi200/kospi200.csv'
 start = '2010-01-01' #데이터 시작 시점.
 
 def download_stock_data(path):
-	with open(path, 'r', newline='') as o:
+	with open(path, 'r', newline='', encoding = 'euc-kr') as o:
 		wr = csv.reader(o)
 		for index, i in enumerate(wr): # 총 200개.
 			symbol = i[0][3:9]+'.KS' #야후 기업 코드 양식.
