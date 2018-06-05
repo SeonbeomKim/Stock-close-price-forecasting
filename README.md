@@ -46,7 +46,8 @@
     * Bi_LSTM_luong_attention.py
     * Bi_LSTM.py
         * 딥러닝 코드 3개 결과가 전부 비슷함. 아무거나 사용해도 무방.
-        * 윈도우는 코드 그대로 사용하면 되고, 리눅스에서는 학습,검증,테스트 코드에서 pd.read_csv의 encoding='euc-kr' 지워야 실행됨.
+        * 윈도우는 코드 그대로 사용하면 됨
+        * 리눅스에서는 pd.read_csv의 encoding='euc-kr' 지워야 실행됨.
 
     * preprocess_class.py
         * 1. ~ 3. 전처리 코드 합친 것. 필요에 맞게 수정해서 사용함. 아래 두 부분에서 사용됨.
