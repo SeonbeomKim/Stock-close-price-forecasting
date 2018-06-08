@@ -1,4 +1,4 @@
-# TensorFlow-Stock_price_forecasting
+# Stock_price_forecasting
 
 ## image
     * architecture => 3종류의 딥러닝 아키텍처
